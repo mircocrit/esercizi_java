@@ -32,6 +32,13 @@ public class clonazione_2 {
         System.out.println("v: "+v);
         //l'istruzione seguente copia la struttura del dato
         ArrayList v2 = (ArrayList)v.clone();
+        
+        // test sulla shallow copy 
+        /** 
+        ((Int2)v2.get(0)).increment();
+        System.out.println("v2 shallow copy: "+v2);
+        */
+
         //ora clona ogni elemento
         for(int i=0; i < v.size(); i++){
             v2.set(i,((Int2)v.get(i)).clone());
