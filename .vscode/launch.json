@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - passaggio_di_riferimenti",
+            "request": "launch",
+            "mainClass": "passaggio_di_riferimenti"
+        }
+    ]
+}
