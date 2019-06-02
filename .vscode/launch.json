@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Music2",
+            "request": "launch",
+            "mainClass": "Music2",
+            "projectName": "esercizi_java_5c2091e0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Music",
             "request": "launch",
             "mainClass": "Music",
