@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Music",
+            "request": "launch",
+            "mainClass": "Music",
+            "projectName": "esercizi_java_5c2091e0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - upcasting",
+            "request": "launch",
+            "mainClass": "upcasting",
+            "projectName": "esercizi_java_5c2091e0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - array_init",
             "request": "launch",
             "mainClass": "array_init",
