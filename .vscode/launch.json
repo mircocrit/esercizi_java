@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - immutable",
+            "request": "launch",
+            "mainClass": "immutable"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - classe_readonly_personalizzata",
             "request": "launch",
             "mainClass": "classe_readonly_personalizzata"
