@@ -1,0 +1,4 @@
+/**
+ * inizializazzione array
+*/
+
