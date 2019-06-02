@@ -5,15 +5,13 @@ class Note {
     
     public Note(int val) { value = val; }
     
-    private static Note MIDDLE_C;
-    private static Note C_SHARP;
-    private static Note B_FLAT;
+
     
-    public static final Note[] NoteInternal = {
+    public static final Note
         MIDDLE_C = new Note(0),
         C_SHARP = new Note(1),
-        B_FLAT = new Note(2)
-    }; // Etc.
+        B_FLAT = new Note(2);
+   
 }
 
 class Instrument {
@@ -32,8 +30,7 @@ class Wind extends Instrument {
 public class upcasting {
     public static void tune(Instrument i) {
         // ...
-        Note n = new Note(0);
-        i.play((Note)n.NoteInternal[0]);
+        i.play(Note.MIDDLE_C);
     }
     public static void main(String[] args) {
         Wind flute = new Wind();
