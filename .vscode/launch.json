@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - array_init",
+            "request": "launch",
+            "mainClass": "array_init",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - immutable",
             "request": "launch",
             "mainClass": "immutable"
