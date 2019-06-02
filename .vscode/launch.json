@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - interi_immutabili",
+            "request": "launch",
+            "mainClass": "interi_immutabili"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - clonazione_2",
             "request": "launch",
             "mainClass": "clonazione_2",
