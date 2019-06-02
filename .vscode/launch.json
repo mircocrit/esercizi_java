@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Shapes",
+            "request": "launch",
+            "mainClass": "Shapes",
+            "projectName": "esercizi_java_5c2091e0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Derived",
             "request": "launch",
             "mainClass": "Derived",
