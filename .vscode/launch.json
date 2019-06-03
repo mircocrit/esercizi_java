@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - WindError",
+            "request": "launch",
+            "mainClass": "WindError",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Music3",
             "request": "launch",
             "mainClass": "Music3",
