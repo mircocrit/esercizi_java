@@ -2,7 +2,7 @@
  * Clausola finally
  */
 
- class FourException extends Exception {}
+ class FourException extends Exception { static final long serialVersionUID = 2131435;}
 
  public class AlwaysFinally {
      public static void main(String[] args){

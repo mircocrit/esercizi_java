@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - clonazione_1",
+            "request": "launch",
+            "mainClass": "clonazione_1",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SimpleExceptionDemo",
             "request": "launch",
             "mainClass": "SimpleExceptionDemo",

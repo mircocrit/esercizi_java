@@ -3,7 +3,6 @@
  * dell'interfaccia cloneable.
  */
 
-import java.util.*;
 
 class MyObject implements Cloneable {
     

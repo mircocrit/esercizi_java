@@ -15,7 +15,7 @@ class Int{
 public class clonazione{
 
     public static void main(String[] args){
-        ArrayList v = new ArrayList<Int>();
+        ArrayList<Int> v = new ArrayList<Int>();
 
         for(int i = 0; i < 10; i++){
             v.add(new Int(i));
@@ -23,7 +23,7 @@ public class clonazione{
 
         System.out.println("v: " + v);
 
-        ArrayList v2 = (ArrayList)v.clone();
+        ArrayList<Int> v2 = (ArrayList)v.clone();
         for(int i=0;i < v.size();i++){
             ((Int)v2.get(i)).increment();
         }

@@ -25,13 +25,13 @@ class Int2 implements Cloneable{
 
 public class clonazione_2 {
     public static void main(String[] args) {
-        ArrayList v = new ArrayList();
+        ArrayList<Int2> v = new ArrayList<Int2>();
         for(int i = 0; i < 10; i++){
             v.add(new Int2(i));
         }
         System.out.println("v: "+v);
         //l'istruzione seguente copia la struttura del dato
-        ArrayList v2 = (ArrayList)v.clone();
+        ArrayList<Int2> v2 = (ArrayList)v.clone();
         
         // test sulla shallow copy 
         /** 
