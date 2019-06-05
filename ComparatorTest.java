@@ -17,7 +17,7 @@
         CompType[] a = new CompType[10];
         a =CompType.generator(a.length);
         System.out.println("before sorting, a = "+Arrays.toString(a));
-        Arrays.sort(a);
+        Arrays.sort(a, new CompTypeComparator());
         System.out.println("after sorting, a = "+Arrays.toString(a));
      }
  }
