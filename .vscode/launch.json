@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ComparatorTest",
+            "request": "launch",
+            "mainClass": "ComparatorTest",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CompType2",
             "request": "launch",
             "mainClass": "CompType2",
