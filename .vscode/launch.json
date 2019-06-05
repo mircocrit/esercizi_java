@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CompType2",
+            "request": "launch",
+            "mainClass": "CompType2",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CompType",
+            "request": "launch",
+            "mainClass": "CompType",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ComparingArrays",
             "request": "launch",
             "mainClass": "ComparingArrays",
