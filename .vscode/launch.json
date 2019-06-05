@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ExcDivision",
+            "request": "launch",
+            "mainClass": "ExcDivision",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PolyConstructors",
             "request": "launch",
             "mainClass": "PolyConstructors",
