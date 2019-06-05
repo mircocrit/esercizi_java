@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CopyingArrays",
+            "request": "launch",
+            "mainClass": "CopyingArrays",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IceCream",
             "request": "launch",
             "mainClass": "IceCream",
