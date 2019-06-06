@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Queue",
+            "request": "launch",
+            "mainClass": "Queue",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StackL",
             "request": "launch",
             "mainClass": "StackL",
