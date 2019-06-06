@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Collection1",
+            "request": "launch",
+            "mainClass": "Collection1",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CatsAndDogs2",
             "request": "launch",
             "mainClass": "CatsAndDogs2",
