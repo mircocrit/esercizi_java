@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Holder2",
+            "request": "launch",
+            "mainClass": "Holder2",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ReadOnly",
             "request": "launch",
             "mainClass": "ReadOnly",
