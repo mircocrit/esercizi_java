@@ -1,5 +1,5 @@
 /**
- * Esempio di java generics
+ * Esempio di java generics fatto senza il supporto di java
  */
 
  public class Holder2{
