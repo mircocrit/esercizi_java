@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Counter1",
+            "request": "launch",
+            "mainClass": "Counter1",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SimpleThread",
             "request": "launch",
             "mainClass": "SimpleThread",
