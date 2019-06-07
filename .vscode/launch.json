@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ReadOnly",
+            "request": "launch",
+            "mainClass": "ReadOnly",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Statistic",
             "request": "launch",
             "mainClass": "Statistic",
