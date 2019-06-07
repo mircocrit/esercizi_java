@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LostInformation",
+            "request": "launch",
+            "mainClass": "LostInformation",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ErasedTypeEquivalence",
             "request": "launch",
             "mainClass": "ErasedTypeEquivalence",
