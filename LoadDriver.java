@@ -1,3 +1,6 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -9,7 +12,8 @@ import java.sql.Statement;
 // add as jar to the project
 
 public class LoadDriver {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws IOException {
         try {
             // The newInstance() call is a work around for some
             // broken Java implementations
@@ -24,6 +28,11 @@ public class LoadDriver {
         
         
         try {
+            BufferedReader stdin =
+            new BufferedReader(
+            new InputStreamReader(System.in));
+            System.out.print("Enter a line:");
+            System.out.println(stdin.readLine());
             Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/test?user=monty&password=greatsqldb");
             
             // Do something with the Connection
