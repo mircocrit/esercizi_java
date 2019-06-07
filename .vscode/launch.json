@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LoadDriver",
+            "request": "launch",
+            "mainClass": "LoadDriver",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CovariantArrays",
             "request": "launch",
             "mainClass": "CovariantArrays",
