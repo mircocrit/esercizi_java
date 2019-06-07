@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GenericVarargs",
+            "request": "launch",
+            "mainClass": "GenericVarargs",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - New",
             "request": "launch",
             "mainClass": "New",
