@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SimpleThread",
+            "request": "launch",
+            "mainClass": "SimpleThread",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MyClass",
             "request": "launch",
             "mainClass": "MyClass",
