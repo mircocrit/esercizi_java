@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - New",
+            "request": "launch",
+            "mainClass": "New",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GenericMethods",
+            "request": "launch",
+            "mainClass": "GenericMethods",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CoffeeGenerator",
             "request": "launch",
             "mainClass": "CoffeeGenerator",
