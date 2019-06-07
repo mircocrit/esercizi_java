@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LinkedStack",
+            "request": "launch",
+            "mainClass": "LinkedStack",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TupleTest",
             "request": "launch",
             "mainClass": "TupleTest",
