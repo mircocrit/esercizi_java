@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ThreadExercise",
+            "request": "launch",
+            "mainClass": "ThreadExercise",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PerfectTime",
             "request": "launch",
             "mainClass": "PerfectTime",
