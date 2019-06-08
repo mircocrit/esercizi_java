@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestCustom",
+            "request": "launch",
+            "mainClass": "TestCustom",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TreeClienti",
             "request": "launch",
             "mainClass": "TreeClienti",
