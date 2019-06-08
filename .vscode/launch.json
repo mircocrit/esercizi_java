@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PerfectTime",
+            "request": "launch",
+            "mainClass": "PerfectTime",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Daemons",
+            "request": "launch",
+            "mainClass": "Daemons",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Counter1",
             "request": "launch",
             "mainClass": "Counter1",
