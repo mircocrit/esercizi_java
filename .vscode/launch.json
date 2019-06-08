@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TreeClienti",
+            "request": "launch",
+            "mainClass": "TreeClienti",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreadExercRunnable",
+            "request": "launch",
+            "mainClass": "ThreadExercRunnable",
+            "projectName": "esercizi_java_ad748aea"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ThreadExercise",
             "request": "launch",
             "mainClass": "ThreadExercise",
