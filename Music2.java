@@ -1,5 +1,5 @@
 //Overloading invece che upcasting
-
+/*
 class Note {
     private int value;
     private Note(int val){ value = val;}
@@ -51,4 +51,4 @@ public class Music2{
         tune(violin); // no upcasting
         tune(frenchHorn); // no upcasting
     }
-}
+}*/

@@ -4,8 +4,7 @@
 //  Demonstrates the use of various button types.
 //********************************************************************
 
-import QuotesControls;
-import GenericWindowListener;
+
 import java.awt.event.*;
 
 public class Quotes
