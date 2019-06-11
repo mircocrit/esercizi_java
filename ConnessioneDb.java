@@ -43,7 +43,7 @@ public class ConnessioneDb {
 
         PrintWriter pw = new PrintWriter("items.txt");
 
-       for(int i=0; i < 1; i++){
+       for(int i=0; i < items.size(); i++){
 
            pw.println(items.get(i));
 
@@ -55,14 +55,17 @@ public class ConnessioneDb {
         items.clear();
         System.out.println(items);
 
-        /*FileReader fr = new FileReader("items.txt");
-        int y;
 
-        while((y = fr.read()) != -1){
-            System.out.println(y);
-        }
+        BufferedReader in =new BufferedReader(
+                new FileReader("items.txt"));
+        String s, s2 = new String();
+        while((s = in.readLine())!= null)
+            s2 += s + ","; //inserisce virgola anche alla fine
+        in.close();
 
-        fr.close();*/
+        System.out.println("stringa s2: "+s2);
+
+
 
         FileInputStream fis = new FileInputStream("itemsSer.txt");
         ObjectInputStream ois = new ObjectInputStream(fis);
